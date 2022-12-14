@@ -1,0 +1,98 @@
+body{background:rebeccapurple;}
+
+.container-home{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:5rem;
+    margin: 5rem;
+    align-items:center;
+    
+}
+.left{
+       color: #fff;
+       text-align:left;
+       margin-left: 2rem;
+}
+
+.left h4{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.right{
+   padding: auto;
+   margin-right: 2rem;
+}
+
+.right button{
+      padding: 0.5rem 2.0rem;
+      margin-bottom: 1rem;
+      width:87%;
+      background:#4267b2;
+      color: #fff;
+      border-radius: 7px;
+      box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+      z-index: 1;
+      
+}
+.right button:hover{
+       background:rgba(38, 177, 119, 0.825);
+    
+}
+
+
+.right form{
+    width:fit-content;
+    height:fit-content;
+    padding:1rem;
+    background: #fff;
+    border-radius: 7px;
+     
+}
+
+.right form input{
+    width:100%;
+    margin: 0.8rem auto;
+    padding: 0.5rem 0;
+    position: relative;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align:left;
+    
+
+}
+
+
+
+#submit{
+    width:100%;
+    background:rgb(130, 241, 130);
+    color:#fff;
+    text-align: center;
+    padding: 0.7rem 0;
+    font-size: large;
+    font-weight:500;
+    border: 1px green solid;
+    box-shadow: 3px 3px 3px 3px rgb(207, 252, 207) ;
+    z-index: 1;
+
+
+}
+
+#submit:hover{
+    background:transparent;
+    color: black;
+}
+.right form p{
+    font-size: smaller;
+    padding: 1rem 2rem;
+    margin-top: -0.5rem;
+}
+.right form p span{
+    color: red;
+    font-weight: 600;
+}
+.right form p a{
+     text-decoration: none;
+}
