@@ -1,4 +1,7 @@
 //adding numbers in javascript
+  
+  var a = 5
+  var b = 5
 
-var a = 5 +5;
-  console.log(a)
+console.log(alert( + a + b ));
+ 
